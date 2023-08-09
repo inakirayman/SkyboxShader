@@ -21,11 +21,12 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Skybox
-  m_Shader: {fileID: -6465566751694194690, guid: 58b9e2b4a3b10e44791948133345ad25,
+  m_Shader: {fileID: -6465566751694194690, guid: 247c525ed0b9cb6419ab66f8241a8f8a,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
+  - _USE_AURORA
   - _USE_STARS
   m_InvalidKeywords: []
   m_LightmapFlags: 4
@@ -98,6 +99,8 @@ Material:
     m_Floats:
     - _AlphaClip: 0
     - _AlphaToMask: 0
+    - _Aurora_Blend: 0.96
+    - _Aurora_Intensity: 3.76
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
     - _Blend: 0
@@ -109,15 +112,19 @@ Material:
     - _Cutoff: 0.5
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
+    - _Distorsion_Speed: 0.59
     - _DstBlend: 0
     - _DstBlendAlpha: 0
     - _EnvironmentReflections: 1
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
+    - _Gradient_Offset: 0.3
     - _Horizon_Blend: 48.7
     - _Metallic: 0
     - _Nadir_Blend: 0.2
+    - _Noise_Intensity: 0.5
+    - _Noise_Scale: -3.14
     - _OcclusionStrength: 1
     - _Parallax: 0.005
     - _QueueOffset: 0
@@ -131,18 +138,24 @@ Material:
     - _Star_Height: 213
     - _Star_Intensity: 31
     - _Surface: 0
+    - _Twirl_Strenght: 0.84
+    - _USE_AURORA: 1
     - _USE_STARS: 1
     - _WorkflowMode: 1
     - _ZWrite: 1
     - _Zenith_Blend: 0.01
     m_Colors:
+    - _Aurora_Tilling: {r: 1, g: 3.86, b: 0, a: 0}
     - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
     - _Base_Ground_Color: {r: 0.24528292, g: 0.09603057, b: 0.09603057, a: 0}
     - _Base_Horizon_Color: {r: 0.39773938, g: 0.5498666, b: 0.7735849, a: 0}
     - _Base_Sky_Color: {r: 0.070087224, g: 0.13742799, b: 0.23584908, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Distorsion_MinMax: {r: 10, g: 12, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _Scroll_Speed: {r: 0, g: 0.02, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Twirl_Offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2255769646261982797
 MonoBehaviour:
