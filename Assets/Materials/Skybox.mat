@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Skybox
-  m_Shader: {fileID: -6465566751694194690, guid: 247c525ed0b9cb6419ab66f8241a8f8a,
+  m_Shader: {fileID: -6465566751694194690, guid: fed872ae4e99b994ead697f5c594c696,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -110,6 +110,7 @@ Material:
     - _ClearCoatSmoothness: 0
     - _Cull: 2
     - _Cutoff: 0.5
+    - _DayNight: 0
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _Distorsion_Speed: 0.59
@@ -134,9 +135,10 @@ Material:
     - _SpecularHighlights: 1
     - _SrcBlend: 1
     - _SrcBlendAlpha: 1
-    - _Star_Color_intensity: 1
-    - _Star_Height: 213
-    - _Star_Intensity: 31
+    - _Star_Color_intensity: 6.3
+    - _Star_Height: 263.06
+    - _Star_Intensity: 42.46
+    - _Sun_Size: 0.03
     - _Surface: 0
     - _Twirl_Strenght: 0.84
     - _USE_AURORA: 1
@@ -151,10 +153,14 @@ Material:
     - _Base_Horizon_Color: {r: 0.39773938, g: 0.5498666, b: 0.7735849, a: 0}
     - _Base_Sky_Color: {r: 0.070087224, g: 0.13742799, b: 0.23584908, a: 0}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Day_Sky_Color: {r: 0.39773938, g: 0.5498666, b: 0.7735849, a: 0}
     - _Distorsion_MinMax: {r: 10, g: 12, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _MainLightDirection: {r: 0, g: 0.26671407, b: 0.9637757, a: 0}
+    - _Night_Sky_Color: {r: 0.07058821, g: 0.13725486, b: 0.23529407, a: 0}
     - _Scroll_Speed: {r: 0, g: 0.02, b: 0, a: 0}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
+    - _Sun_Color: {r: 4, g: 2.352941, b: 0, a: 0}
     - _Twirl_Offset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &2255769646261982797
